@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+/*header styles*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item {
+    margin-right: 82px;
+    list-style-type: none;
+}
+
+.header_item:last-child{
+    margin-right: 0;
+}
+
+.header_link {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.header_link:hover, .header_link:active, .header_link:focus {
+    opacity: 75%;
+}
+
+/* intro styles*/
+
+.intro {
+    height: 100vh;
+    background: url(/img/Hero.jpg) no-repeat center;
+    background-size: cover;
+}
