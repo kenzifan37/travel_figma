@@ -60,7 +60,89 @@ header {
 /* intro styles*/
 
 .intro {
-    height: 100vh;
+    min-height: 100vh;
     background: url(/img/Hero.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 263px;
+}
+
+.intro_title {
+    max-width: 619px;
+    margin-bottom: 22px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+.intro_text {
+    max-width: 546px;
+    margin-bottom: 54px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #FFFFFF;
+}
+
+.search_form_wrap {
+    border: none;
+}
+
+.search_form_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search_form_field {
+    border: none;
+    background-color: transparent;
+    background: url(/img/Oval.svg) no-repeat left 6px;
+    background-size: 20px;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    width: 297px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+
+    color: #FFFFFF;
+
+}
+
+.search_form_field::placeholder {
+    color: white;
+}
+
+.search_form_submit {
+    padding: 15px 39px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    background: #1B7DFF;
+
+    border: 0;
+}
+
+.search_form_submit:hover, .search_form_submit:active, .search_form_submit:focus {
+    background: #0c5ac2;
 }
