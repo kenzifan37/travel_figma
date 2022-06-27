@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /*header styles*/
 
 header {
@@ -182,6 +187,19 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 55px;
+    padding: 0 100px;
 }
 
+.benefits_card{
+    grid-column: span 1;
+}
+
+.benefits_card_pic{
+    margin-bottom: 37px;
+    max-width: 66px;
+}
+
+.benefits_card_thumb{
+    display: block;
+}
 
