@@ -57,11 +57,19 @@ img {
 
 /*header styles*/
 
-header {
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    transition: 0.5s;
+    padding-bottom: 20px;
+    z-index: 50;
+}
+
+.header_active{
+    background-color: #0E1D28;
+    
 }
 
 .header_wrapper {
@@ -579,4 +587,84 @@ header {
 
 .top_card_button:hover, .top_card_button:focus{
     background: #0c5ac2;
+}
+
+/* Videos */
+
+.videos{
+    width: 100%;
+}
+
+.videos_wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video_item{
+    padding-top: 56.25%;
+}
+
+.video_element{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+/*footer*/
+
+footer{
+    background-color: #0E1D28;
+    padding: 119px 0;
+}
+
+.footer_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_logo{
+    width: 50%;
+}
+
+.footer_nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer_menu_item{
+    list-style-type: none;
+}
+
+.footer_menu_title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+
+    color: #FFFFFF;
+}
+
+.footer_menu_link{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+}
+
+.footer_menu_link:hover, .footer_menu_link:focus {
+    opacity: 0.7;
 }
